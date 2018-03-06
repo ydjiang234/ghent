@@ -1,0 +1,58 @@
+\documentclass{article}
+%\usepackage{fontspec}
+%\setmainfont{Times New Roman}[SizeFeatures={Size=11}]
+\usepackage{times}
+\usepackage{color}
+\usepackage{hyperref}
+
+
+\newdimen\ls
+\ls=14.4pt
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{12pt}
+\setlength{\baselineskip}{\ls}
+%\renewcommand{\baselinestretch}{1.2}
+
+\usepackage[a4paper]{geometry}
+\geometry{margin=1in}
+
+\pagenumbering{gobble}
+
+
+\begin{document}
+\begin{center}
+
+    %My Name
+    \Large\selectfont
+    \textbf{\textsc{Yadong Jiang}}\\
+    
+    %My Address
+    \normalsize\selectfont
+    \input{address_me.txt}
+    
+    
+\end{center}
+\par
+
+%Address
+
+\normalsize\selectfont
+\input{address_ghent.txt}
+
+\par
+\vspace{15pt}
+
+\large\selectfont
+
+Dear Prof. Van Paepegem:
+\par
+\input{Contents.txt}
+\par
+Sincerely,\\
+Yadong Jiang\\
+PhD Candidate, Earthquake Engineering and Engineering Seismology\\
+University School for Advanced Studies IUSS Pavia, Pavia, Italy\\
+University of Pavia, Pavia, Italy
+
+\end{document}
